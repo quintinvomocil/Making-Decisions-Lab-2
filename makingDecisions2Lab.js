@@ -56,7 +56,7 @@ let evensArr = []
 //Code Here
 
 for( i = 0; i < nums.length; i++ ){
-    if([i % 2 === 0])
+    if(nums[i] % 2 === 0)
       evensArr.push(nums[i]);
 }
 
